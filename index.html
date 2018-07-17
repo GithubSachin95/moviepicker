@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Jquery
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css"></link>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="index.js"></script>
+<script src="index1.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+
+<!-- Search using movie title -->
+<div class="row" >
+    <div class="col-12"><h3>Search a movie using title</h3></div>
+    <div class="col-lg-3 col-md-6"><label for="title" >Title :</label><input class="text" id="enterTitle" placeholder="Enter a movie title"></div>
+	<div class="col-lg-3 col-md-6"><label for="year" >Year :</label><input class="text" id="enterYearTitle" placeholder="Enter a release year"></input></div>
+	<div class="col-lg-3 col-md-3"><button class="btn btn-primary" id="buttonTitle">Submit </button></div>
+</div>
+
+<!-- Search using Imbd id -->
+<div class="row">
+    <div class="col-12"><h3>Search a movie using Imdb ID</h3></div>
+    <div class="col-lg-3 col-md-6"><label for="Id">Title :</label><input class="text" id="enterId" placeholder="Enter a Imdb id"></div>
+	<div class="col-lg-3 col-md-6"><label for="year" >Year :</label><input class="text" id="enterYearId" placeholder="Enter a release year"></input></div>
+	<div class="col-lg-3 col-md-3"><button class="btn btn-primary" id="buttonId">Submit </button></div>
+</div>
+<div class="row" id="list">
+<div class="col-lg-3">
+<div class="card">
+  <img class="card-img-top" src="" id="poster">
+</div>
+</div>
+<div class="col-lg-9">
+	<ul class="list-group" id="list">
+    <li class="list-group-item">
+	<p>Title : <span id="title">NA</span></p></li>
+    <li class="list-group-item">
+	<p>Actors : <span id="actors">NA</span></p></li>
+    <li class="list-group-item">
+	<p>Plot : <span id="plot">NA</span></p></li>
+	<li class="list-group-item">
+	<p>Generations : <span id="generation">NA</span></p></li>
+	<li class="list-group-item">
+	<p>Type : <span id="type">NA</span></p></li>
+	<li class="list-group-item">
+	<p>Language : <span id="language">NA</span></p></li>
+	<li class="list-group-item">
+	<p>Writer : <span id="writer">NA</span></p></li>
+	<li class="list-group-item">
+	<p>Director : <span id="director">NA</span></p></li>
+	<li class="list-group-item">
+	<p>Awards : <span id="awards">NA</span></p></li>
+	<li class="list-group-item">
+	<p>Rated : <span id="rated">NA</span></p></li>
+	<li class="list-group-item">
+	<p>Country : <span id="country">NA</span></p></li>
+	<li class="list-group-item">
+	<p>IMDB ID : <span id="imdbID">NA</span></p></li>
+	<li class="list-group-item">
+	<p>IMDB Rating : <span id="imdbrate">NA</span></p></li>
+	<li class="list-group-item" id="seasonNo">
+	<p>Total seasons : <span id="seasons">NA</span></p></li>
+  </ul>
+</div>
+</div>
+
+</div>		
+</body>
+</html>

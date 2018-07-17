@@ -1,0 +1,24 @@
+#content{
+	border : 1px solid black;
+}
+
+.row{
+	border : 1px solid black;
+	padding : 10px;
+	margin : 10px;
+}
+
+.container{
+	width : 80%;
+	border : 1px solid black;
+}
+
+.poster{
+	width : 30vw;
+}
+
+.text{
+	margin :4px;
+	padding : 4px;
+	border : 1px solid black;
+}
