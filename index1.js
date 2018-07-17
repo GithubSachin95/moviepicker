@@ -20,7 +20,7 @@ $("document").ready(()=>{
 			type : "GET" ,
 			dataType : "json" ,
 			async : true,
-			url : "http://www.omdbapi.com/?apikey="+apikey+"&i="+enteredId +"&y=" +enteredYear,
+			url : "https://www.omdbapi.com/?apikey="+apikey+"&i="+enteredId +"&y=" +enteredYear,
 
 			success : (response)=>{
 				let data = response;
@@ -33,7 +33,7 @@ $("document").ready(()=>{
 				$('#poster').attr('src', data.Poster );
 					}
 				else{
-					$("#poster").attr('src' , "http://polyureashop.studio.crasman.fi/pub/web/img/no-image.jpg")
+					$("#poster").attr('src' , "https://polyureashop.studio.crasman.fi/pub/web/img/no-image.jpg")
 				}
 				{
 				
